@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log On</title>
+    <link rel="stylesheet" href="../css/style2.css" />
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--*HEADER-->
+    <header>
+        <div class="superior">
+            <ul class="contacto">
+                <li><a href="tel:+34 646 26 58 52"><i class="bi bi-telephone"></i>646 26 58 52</a></li>
+                <li><a href="mailto:info@centronelson.org"><i class="bi bi-envelope"></i>info@centronelson.org</a></li>
+            </ul>
+            <ul class="redes_sociales">
+                <li><a href="https://twitter.com/centronelson"><i class="bi bi-twitter"></i></a></li>
+                <li><a href="https://instagram.com/centronelson"><i class="bi bi-instagram"></i></a></li>
+                <li><a href="https://twitch.com"><i class="bi bi-twitch"></i></a></li>
+                <li><a href="https://youtube.com/"><i class="bi bi-youtube"></i></a></li>
+                <li><a href="https://facebook.com/CentroNelson"><i class="bi bi-facebook"></i></a></li>
+            </ul>
+        </div>
+        <div class="laterales">
+            <a href="#" class="logo">
+                <img src="../img/nelson_blanco.gif" class="logo" alt="Centro Nelson"> 
+            </a>
+
+        </div>
+        <nav id="menu_principal">
+            <div class="toggle " id="toggle">
+                <div class="toggle__line "></div>
+            </div>
+            <ul class="menu_principal">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="#">Titulaciones</a>
+                    <ul>
+                        <li><a href="#">Título de F.P. Básica en inf. y Com.</a></li>
+                        <li><a href="#">Título de Grado Medio S.M.R</a></li>
+                        <li><a href="#">Título de Grado Superior D.A.W</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Nelson</a>
+                    <ul>
+                        <li><a href="#">Nuestro centro</a></li>
+                        <li><a href="#">Precios</a></li>
+                        <li><a href="#">Equipo docente</a></li>
+                        <li><a href="#">Proyecto</a></li>
+                        <li><a href="#">Instalaciones</a></li>
+                        <li><a href="#">Documentos internos</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Becas</a></li>
+                <li><a href="#">Solicitud de plaza</a>
+                    <ul>
+                        <li><a href="#">Solicitud de plaza F.P Básica</a></li>
+                        <li><a href="#">Solicitud de plaza para Grado Medio S.M.R</a></li>
+                        <li><a href="#">Reserva de plaza y matrícula Grado Superior D.A.W</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="laterales">
+            <ul class="accesos">
+                <li><a href="./secciones/cuenta.html"><i class="bi bi-person-circle"></i><span>Mi cuenta</span></a> 
+                </li>
+                <li><a href="#"><i class="bi bi-cart"></i>Carrito</a></li>
+            </ul>
+        </div>
+    </header>
+    <!--*MAIN-->
+    <main>
+        <div>
+            <form action="#" method="post" id="formInicioSesion">
+                <h3>INICIA SESIÓN</h3>
+                <input type="email" class="inputEstilo" id="mailInicio" name="email" placeholder="email"maxlength="20">
+                <span id="errorMail"></span>
+                <input type="password" class="inputEstilo" id="passInicio" name="pass" placeholder="contraseña"maxlength="20">
+                <span id="errorPass"></span>
+                <a href="#">
+                    <span>¿HAS OLVIDADO TU CONTRASEÑA?</span>
+                </a>
+                <input type="submit" value="INICIO SESION" id="buttonInicio">
+            </form>
+        </div>
+        <div class="registro">
+            <h3>REGÍSTRATE</h3>
+            <p>
+                SI TODAVÍA NO TIENES UNA CUENTA DE USUARIO EN CAS TRAINING.COM UTILIZA ESTA OPCIÓN PARA ACCEDER AL FORMULARIO DE REGISTRO.
+            </p>
+            <p>
+                TE SOLICITAREMOS LA INFORMACIÓN IMPRESCINDIBLE PARA AGILIZAR EL PROCESO DE COMPRA.                
+            </p>
+            <a href="registrarse.html">CREAR CUENTA</a>
+        </div>
+
+    </main>
+    <!--*FOOTER-->
+    <footer>
+        <div class="contacto">
+            <ul>
+                <li><a href="tel:+34646265852">646 26 58 52</a></li>
+                |
+                <li><a href="#">Contacta</a></li>
+                |
+                <li><a href="mailto:info@centronelson.org">info@centronelson.org</a></li>
+            </ul>
+        </div>
+        <div class="info">
+            <h4>Sobre nosotros</h4>
+            <ul>
+                <li><a href="#">Quienes somos</a></li>
+                <li><a href="#">Proyectos</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Trabaja con nosotros</a></li>
+            </ul>
+        </div>
+        <div class="sociales">
+            <h4>Redes sociales</h4>
+            <ul>
+                <li><a href="#"> <i class="fab fa-twitter"></i>Twitter</a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i>Instagram</a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i>Youtube</a></li>
+                <li><a href="#"><i class="fab fa-facebook"></i>Facebook</a></li>
+            </ul>
+
+        </div>
+        <div class="iframe">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.756819103808!2d-3.716735884643626!3d40.43638337936284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228431423d5db%3A0x53a0b966ac4d9128!2sCentro%20Nelson!5e0!3m2!1ses!2ses!4v1639652171698!5m2!1ses!2ses" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="subinfo">
+            <a href="#">Aviso Legal</a> |
+            <a href="#">Política de privacidad</a> |
+            <a href="#">Uso de cookies</a> |
+            <a href="#">Baja newsletter</a>
+            <hr>
+            <p>© 2021 Centro Nelson - Madrid (Moncloa). Todos los derechos reservados.</p>
+
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="../js/indexISesion.js"></script>
+</body>
+
+</html>
